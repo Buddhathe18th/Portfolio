@@ -1,65 +1,135 @@
 /* Light theme */
 /*https://coolors.co/f4f4f7-ffffff-f9c9b8-aec4ff-96b0f2-111827-6b7280-e5e7eb-6b7280*/
 :root {
-  --bg-body: #F4F4F7;
-  --bg-section: #ffffff;
-  --text-main: #111827;
-  --text-muted: #6b7280;
+    --bg-body: #EEF1F7;
+    /* soft cool background */
+    --bg-section: #F8FAFF;
+    /* very light panel, not pure white */
+    --text-main: #111827;
+    --text-muted: #6b7280;
 
-  --primary: #AeC4FF;       
-  --primary-hover: #96B0F2;
-  --accent-warm: #F9C9B8; 
+    --primary: #AEBFF5;
+    /* slightly cooler, ties into bg */
+    --primary-hover: #93A6EB;
 
-  --card-bg: #e5e7eb;
-  --border-subtle: #6b7280;
+    --accent-warm: #F4BFAE;
+    /* softer peach */
+    --accent-soft: #E7E0FF;
+    /* new: lavender for subtle chips/badges */
+
+    --card-bg: #E4E7F2;
+    /* cooler gray-blue for cards */
+    --card-alt-bg: #F3E9FF;
+    /* new: rare highlight card background */
+
+    --border-subtle: #CBD2E5;
+    /* lighter border */
+    --border-strong: #9CA3C7;
+    /* new: for dividers / focus rings */
+
+    --nav-bg: #FFFFFF;
+    /* new: crisp navbar */
+    --nav-border: #E5E7EB;
 }
+
 
 /* Dark theme */
 /*https://coolors.co/050712-0c1020-6e84bb-5f6e9b-c17b6e-e5e7eb-9ca3af-1f2933-9ca3af*/
 :root[data-theme="dark"] {
-  --bg-body: #050712;
-  --bg-section: #0c1020;
-  --text-main: #e5e7eb;
-  --text-muted: #9ca3af;
+    --bg-body: #050712;
+    --bg-section: #0c1020;
+    --text-main: #e5e7eb;
+    --text-muted: #9ca3af;
 
-  --primary: #6E84BB;
-  --primary-hover: #5F6E9B;
-  --accent-warm: #C17B6E;
+    --primary: #6E84BB;
+    --primary-hover: #5F6E9B;
+    --accent-warm: #C17B6E;
 
-  --card-bg: #1f2933;
-  --border-subtle: #9ca3af;
+    --card-bg: #1f2933;
+    --border-subtle: #9ca3af;
 }
+
+
+.bg-light {
+    background-color: var(--bg-section) !important;
+}
+
+.bg-dark {
+    background-color: var(--bg-body) !important;
+}
+
 
 /* Use tokens throughout */
 body {
-  background-color: var(--bg-body);
-  color: var(--text-main);
+    background-color: var(--bg-body);
+    color: var(--text-main);
 }
 
 section {
-  background-color: var(--bg-section);
+    background-color: var(--bg-section);
 }
 
 .card {
-  background-color: var(--card-bg);
-  border-color: var(--border-subtle);
+    background-color: var(--card-bg);
+    border-color: var(--border-subtle);
+}
+
+.card-title {
+    color: var(--text-main)
+}
+
+.card-text {
+    color: var(--text-main)
 }
 
 .text-muted {
-  color: var(--text-muted) !important;
+    color: var(--text-muted) !important;
 }
 
 .btn-primary {
-  background-color: var(--primary);
-  border-color: var(--primary);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-main);
 }
+
 .btn-primary:hover {
-  background-color: var(--primary-hover);
-  border-color: var(--primary-hover);
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
 }
+
 a {
-  color: var(--primary);
+    color: var(--text-main);
 }
+
 a:hover {
-  color: var(--accent-warm);
+    color: var(--accent-warm);
+}
+
+.navbar {
+    background-color: var(--bg-body);
+    color: var(--text-main) !important;
+    position: sticky !important;
+}
+
+.nav-bar-item {
+    color: var(--text-main) !important;
+}
+
+.nav-link {
+    color: var(--text-main) !important;
+}
+
+
+
+/* Light mode: dark outline */
+.icon {
+    border-width: 1px !important;
+    color: var(--text-main) !important;
+    border-color: var(--text-main);
+    background-color: transparent;
+}
+
+
+.contact {
+    color: var(--text-main);
 }
