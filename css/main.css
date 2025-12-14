@@ -1,0 +1,65 @@
+/* Light theme */
+/*https://coolors.co/f4f4f7-ffffff-f9c9b8-aec4ff-96b0f2-111827-6b7280-e5e7eb-6b7280*/
+:root {
+  --bg-body: #F4F4F7;
+  --bg-section: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+
+  --primary: #AeC4FF;       
+  --primary-hover: #96B0F2;
+  --accent-warm: #F9C9B8; 
+
+  --card-bg: #e5e7eb;
+  --border-subtle: #6b7280;
+}
+
+/* Dark theme */
+/*https://coolors.co/050712-0c1020-6e84bb-5f6e9b-c17b6e-e5e7eb-9ca3af-1f2933-9ca3af*/
+:root[data-theme="dark"] {
+  --bg-body: #050712;
+  --bg-section: #0c1020;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+
+  --primary: #6E84BB;
+  --primary-hover: #5F6E9B;
+  --accent-warm: #C17B6E;
+
+  --card-bg: #1f2933;
+  --border-subtle: #9ca3af;
+}
+
+/* Use tokens throughout */
+body {
+  background-color: var(--bg-body);
+  color: var(--text-main);
+}
+
+section {
+  background-color: var(--bg-section);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--border-subtle);
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+a {
+  color: var(--primary);
+}
+a:hover {
+  color: var(--accent-warm);
+}
