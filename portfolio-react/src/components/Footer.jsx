@@ -1,8 +1,8 @@
 // src/components/Footer.jsx
 function Footer() {
-    return (<footer class="py-3 bg-dark text-light">
-        <div class="container text-center">
-            <small class="contact">&copy; <span id="year"></span> Alex Zhu</small>
+    return (<footer className="py-3 bg-dark text-light">
+        <div className="container text-center">
+            <small className="contact">&copy; <span id="year"></span> Alex Zhu</small>
         </div>
     </footer>);
 }
