@@ -2,33 +2,23 @@
 /*https://coolors.co/f4f4f7-ffffff-f9c9b8-aec4ff-96b0f2-111827-6b7280-e5e7eb-6b7280*/
 :root {
     --bg-body: #EEF1F7;
-    /* soft cool background */
     --bg-section: #F8FAFF;
-    /* very light panel, not pure white */
     --text-main: #111827;
     --text-muted: #6b7280;
 
     --primary: #AEBFF5;
-    /* slightly cooler, ties into bg */
     --primary-hover: #93A6EB;
 
     --accent-warm: #F4BFAE;
-    /* softer peach */
     --accent-soft: #E7E0FF;
-    /* new: lavender for subtle chips/badges */
 
     --card-bg: #E4E7F2;
-    /* cooler gray-blue for cards */
     --card-alt-bg: #F3E9FF;
-    /* new: rare highlight card background */
 
     --border-subtle: #CBD2E5;
-    /* lighter border */
     --border-strong: #9CA3C7;
-    /* new: for dividers / focus rings */
 
     --nav-bg: #FFFFFF;
-    /* new: crisp navbar */
     --nav-border: #E5E7EB;
 }
 
@@ -133,3 +123,17 @@ a:hover {
 .contact {
     color: var(--text-main);
 }
+
+/* Default: light theme */
+.skill-icon-dark {
+  display: none;
+}
+
+/* When dark theme is active */
+:root[data-theme="dark"] .skill-icon-light {
+  display: none;
+}
+:root[data-theme="dark"] .skill-icon-dark {
+  display: inline-block;
+}
+

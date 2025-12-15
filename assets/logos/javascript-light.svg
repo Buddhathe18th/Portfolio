@@ -3,7 +3,7 @@
     xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
  <title>JavaScript shield logo</title>
  <g id="group1" stroke-width="1.33">
-  <path id="path4" fill="#fff"
+  <path id="path4" fill="#000"
       d="m 1.343,0
          l 0.06292,5.043
          c 0.03467,2.773 8.056,94.6 17.82,204.1
@@ -16,7 +16,7 @@
          l -0.0257,-3.026
          h -198.7
          Z" />
-  <path id="path3" fill="#eaebec"
+  <path id="path3" fill="#000"
       d="m 117.5,431.8
          l -80.54,-22.55
          l -1.053,-5.968
@@ -57,7 +57,7 @@
          l 0.7553,5.043
          h 49.49
          Z" />
-  <path id="path2" fill="#f0be25"
+  <path id="path2" fill="#fff"
       d="m 116.8,430.5
          l -79.83,-22.39
          l -17.76,-199
@@ -107,7 +107,7 @@
          c 1.025,1.027 98.57,28.5 101.6,28.6
          c 1.108,0.0393 24.59,-6.216 52.19,-13.9
          Z" />
-  <path id="path1" fill="#e4a126"
+  <path id="path1" fill="#fff"
       d="m 116.8,430.5
          l -79.83,-22.39
          l -17.76,-199
