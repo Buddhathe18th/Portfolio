@@ -137,3 +137,16 @@ a:hover {
   display: inline-block;
 }
 
+.skill-icon-container {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;   /* vertically center */
+  justify-content: center;
+}
+
+/* Make <i> icons behave like SVGs */
+.skill-icon-container i {
+  font-size: 32px;       /* adjust as needed */
+  line-height: 1;
+}
