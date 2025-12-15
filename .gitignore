@@ -1,0 +1,25 @@
+# Logs
+portfolio-react/logs
+portfolio-react/*.log
+portfolio-react/npm-debug.log*
+portfolio-react/yarn-debug.log*
+portfolio-react/yarn-error.log*
+portfolio-react/pnpm-debug.log*
+portfolio-react/lerna-debug.log*
+
+# Build outputs and deps
+portfolio-react/node_modules
+portfolio-react/dist
+portfolio-react/dist-ssr
+portfolio-react/*.local
+
+# Editor directories and files
+portfolio-react/.vscode/*
+!portfolio-react/.vscode/extensions.json
+portfolio-react/.idea
+portfolio-react/.DS_Store
+portfolio-react/*.suo
+portfolio-react/*.ntvs*
+portfolio-react/*.njsproj
+portfolio-react/*.sln
+portfolio-react/*.sw?
