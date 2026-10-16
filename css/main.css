@@ -150,3 +150,7 @@ a:hover {
   font-size: 32px;       /* adjust as needed */
   line-height: 1;
 }
+
+#about .d-flex.flex-column.align-items-center {
+  text-align: center;
+}
